@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    justify-content: space-between;
+    padding: 49px 140px;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.mainMenu{
+    width: 375px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.mainMenu li{
+    padding: 5px 0;
+}
+
+.cart{
+    text-transform: uppercase;
+}
+
+.cart::before{
+    content: url(img/Shape.svg);
+    position: relative;
+}
+
+.slider{
+    height: 431px;
+    background-color: #EEEEEE;
+    padding: 0 140px;
+    background-image: url("img/nerds-index-slide1 1.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+.slider h2{
+    font-size: 55px;
+}
+
+.features-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features-list li{
+    width: 300px;
+}
+
+.features{
+    padding: 80px;
+}
+
+.features-list img{
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+.features-list h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.features-list p{
+    width: 260px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.button{
+    padding: 16px 40px;
+    display: block;
+    background-color: #FB565A;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+}
+
+.features .button{
+    width: 160px;
+}
+
+.slider .button{
+    width: 240px;
+    height: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    height: 525px;
+}
+
+.description{
+    width: 651px;
+}
+
+.description h3{
+    font-size: 45px;
+    line-height: 45px;
+    padding-bottom: 32px;
+}
+
+
+.description p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 40px;
+}
+
+.description h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 23px;
+}
+
+.statistic{
+    width: 360px;
+    margin-right: 140px;
+}
+
+.description ul{
+    list-style-type: none;
+    padding-left: 32px;
+}
+
+.description li{
+    padding-bottom: 30px;
+}
+
+.description li::before{
+    content: url("Rectangle 10.svg");
+    position: relative;
+    bottom: 5px;
+    right: 7px;
+}
+
+.statistic img{
+    padding-bottom: 37px;
+}
+
+.statistic h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.statistic ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.percent{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.percent::after{
+    content: "%";
+    font-size: 26px;
+    position: relative;
+    bottom: 13px;
+    font-weight: bold;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 183px ;
+    padding-left: 172px;
+    padding-bottom: 126px;
+}
+
+.contacts{
+    position: absolute;
+    width: 319px;
+    height: 308px;
+    background-color: white;
+    padding: 50px;
+    top: 54px;
+    left: 140px;
+}
+
+.contacts h4{
+    font-size: 18px;
+    margin-bottom: 23px;
+}
+
+.contacts p{
+    margin-bottom: 37px;
+    color: #666666;
+}
+
+.map{
+    position: relative;
+}
+
+.pin{
+    position: absolute;
+    top: 86px;
+    left: 822px;
+}
+
+.icons-list li{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    left: 0px;
+}
